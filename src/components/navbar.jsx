@@ -8,6 +8,10 @@ class NavBar extends Component {
       <div className="background">
         <img src={mainIcon} className="icon"></img>
         <h2 className="header">Path Finder</h2>
+        <button className="button">Explore!</button>
+        <button className="button">Examples</button>
+        <button className="button">The Algorithms</button>
+        <button className="button">About Us</button>
       </div>
     );
   }
