@@ -1,0 +1,61 @@
+.background {
+  background-color: rgb(48, 48, 48);
+  height: 60px;
+  vertical-align: center;
+  text-align: center;
+  border-bottom: 5px solid #008cba;
+}
+
+.icon {
+  float: left;
+  src: require("../icons/mainIcon.png");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.header {
+  float: left;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 60px;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.button {
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 55px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: rgb(48, 48, 48);
+  border: 2px solid #008cba;
+  border-style: double;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button:hover {
+  background-color: #6fb3ca;
+}
+
+.buttonSelected {
+  background-color: #008cba;
+}
+
+.buttonUnselected {
+  background-color: rgb(48, 48, 48);
+}

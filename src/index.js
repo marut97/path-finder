@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "bootstrap/dist/css/bootstrap.css"
+import App from "./components/app"
 
-const myfirstelement = <h1>Hello React!</h1>
-
-ReactDOM.render(myfirstelement, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
